@@ -3,7 +3,7 @@ pipeline {
 			stages {
 				stage('Source'){
 					steps{
-						checkout([branches: [[name: '*/main']],url: 'https://github.com/aspnet/AspLabs.git'])
+						checkout([branches: [[name: '*/main']],url: 'https://github.com/yespeeyelg/AspLabs.git'])
 
 
 					}
